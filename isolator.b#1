@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.6.0">
+<eagle version="6.4">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -380,9 +380,6 @@ These strictly adhere to the PCB Train board house specs. The rules are &lt;i&gt
 <autorouter>
 <pass name="Default">
 <param name="RoutingGrid" value="50mil"/>
-<param name="AutoGrid" value="1"/>
-<param name="Efforts" value="0"/>
-<param name="TopRouterVariant" value="1"/>
 <param name="tpViaShape" value="round"/>
 <param name="PrefDir.1" value="|"/>
 <param name="PrefDir.2" value="0"/>
@@ -506,7 +503,7 @@ These strictly adhere to the PCB Train board house specs. The rules are &lt;i&gt
 <attribute name="OC_FARNELL" value="9860150" x="36.83" y="16.51" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="OC_NEWARK" value="35K5294" x="36.83" y="16.51" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="R1" library="resistor" package="0207/10" value="4k7" x="22.86" y="36.83" smashed="yes" rot="R180">
+<element name="R1" library="resistor" package="0207/10" value="2k2" x="22.86" y="36.83" smashed="yes" rot="R180">
 <attribute name="NAME" x="23.368" y="39.116" size="1.016" layer="25" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="25.1206" y="37.465" size="1.016" layer="27" ratio="10" rot="R180"/>
 </element>
@@ -514,7 +511,7 @@ These strictly adhere to the PCB Train board house specs. The rules are &lt;i&gt
 <attribute name="NAME" x="18.923" y="20.066" size="1.016" layer="25" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="25.1206" y="18.415" size="1.016" layer="27" ratio="10" rot="R180"/>
 </element>
-<element name="R3" library="resistor" package="0207/10" value="4k7" x="22.86" y="33.02" smashed="yes">
+<element name="R3" library="resistor" package="0207/10" value="2k2" x="22.86" y="33.02" smashed="yes">
 <attribute name="NAME" x="17.272" y="33.909" size="1.016" layer="25" ratio="10"/>
 <attribute name="VALUE" x="20.5994" y="32.385" size="1.016" layer="27" ratio="10"/>
 </element>
